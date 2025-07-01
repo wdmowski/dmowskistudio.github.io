@@ -1269,17 +1269,22 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #000000;
-			border-radius: 100%;
-		}
+#header .logo {
+	width: 5.5rem;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	border: solid 1px #000000;
+	border-radius: 100%;
+	text-align: center;
+}
 
-			#header .logo .icon:before {
-				font-size: 5rem;
-			}
+#header .logo .icon:before {
+	font-family: "Font Awesome 5 Free"; /* lub inna, zależnie od wersji */
+	font-weight: 900; /* ważne, jeśli używasz solidnych ikon */
+	font-size: 3rem; /* tutaj zwiększ do żądanej wielkości */
+	color: #000000;
+	line-height: 5.5rem; /* żeby wycentrować w pionie */
+}
 
 		#header .content {
 			border-style: solid;
