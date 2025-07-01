@@ -20,7 +20,7 @@ footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid #ffffff;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-}
+ background-color: #ffffff; }
 
 ol, ul {
 	list-style: none;
@@ -47,13 +47,13 @@ blockquote, q {
 	}
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+	border: 1px solid #ffffff;
+	border: 1px solid #ffffff;
 }
 
 body {
 	-webkit-text-size-adjust: none;
-}
+ background-color: #ffffff; }
 
 mark {
 	background-color: transparent;
@@ -61,7 +61,7 @@ mark {
 }
 
 input::-moz-focus-inner {
-	border: 0;
+	border: 1px solid #ffffff;
 	padding: 0;
 }
 
@@ -82,21 +82,17 @@ input, select, textarea {
 
 		html, body {
 			min-width: 320px;
-		}
+		 background-color: #ffffff; }
 
 	}
 
 	html {
-		box-sizing: border-box;
-	}
-
-	*, *:before, *:after {
-		box-sizing: inherit;
+		box-sizing: border: 1px solid #ffffff;
 	}
 
 	body {
-		background: #1b1f22;
-	}
+		
+	 background-color: #ffffff; }
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -148,17 +144,15 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border: 1px solid #ffffff;
+		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border: 1px solid #ffffff;
+		border: 1px solid #ffffff;
 		text-decoration: none;
 		color: inherit;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border: 1px solid #ffffff;
 		}
 
 	strong, b {
@@ -189,7 +183,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #000000;
+			border: 1px solid #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -253,7 +247,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px #ffffff;
+		border: 1px solid #ffffff;
 		font-style: italic;
 		margin: 0 0 2rem 0;
 		padding: 0.5rem 0 0.5rem 2rem;
@@ -261,7 +255,7 @@ input, select, textarea {
 
 	code {
 		background: rgba(255, 255, 255, 0.075);
-		border-radius: 4px;
+		border: 1px solid #ffffff;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
@@ -283,8 +277,8 @@ input, select, textarea {
 		}
 
 	hr {
-		border: 0;
-		border-bottom: solid 1px #000000;
+		border: 1px solid #ffffff;
+		border: 1px solid #ffffff;
 		margin: 2.75rem 0;
 	}
 
@@ -395,13 +389,11 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		-moz-transition: border: 1px solid #ffffff;
+		-ms-transition: border: 1px solid #ffffff;
 		background-color: transparent;
-		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: 1px solid #ffffff;
+		border: 1px solid #ffffff;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -426,7 +418,7 @@ input, select, textarea {
 		select:focus,
 		textarea:focus {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #000000;
+			border: 1px solid #ffffff;
 			box-shadow: 0 0 0 1px #ffffff;
 		}
 
@@ -512,12 +504,10 @@ input, select, textarea {
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				-moz-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				border-radius: 4px;
-				border: solid 1px #ffffff;
+				-moz-transition: border: 1px solid #ffffff;
+				-ms-transition: border: 1px solid #ffffff;
+				border: 1px solid #ffffff;
+				border: 1px solid #ffffff;
 				content: '';
 				display: inline-block;
 				height: 1.65rem;
@@ -532,7 +522,7 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #ffffff !important;
-			border-color: #ffffff !important;
+			border: 1px solid #ffffff;
 			color: #1b1f22;
 			content: '\f00c';
 		}
@@ -540,16 +530,16 @@ input, select, textarea {
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #000000;
+			border: 1px solid #ffffff;
 			box-shadow: 0 0 0 1px #ffffff;
 		}
 
 	input[type="checkbox"] + label:before {
-		border-radius: 4px;
+		border: 1px solid #ffffff;
 	}
 
 	input[type="radio"] + label:before {
-		border-radius: 100%;
+		border: 1px solid #ffffff;
 	}
 
 	::-webkit-input-placeholder {
@@ -580,8 +570,8 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: 1px solid #ffffff;
+		border: 1px solid #ffffff;
 		margin-bottom: 2rem;
 		padding: 1.5em;
 	}
@@ -593,8 +583,8 @@ input, select, textarea {
 		}
 
 		.box.alt {
-			border: 0;
-			border-radius: 0;
+			border: 1px solid #ffffff;
+			border: 1px solid #ffffff;
 			padding: 0;
 		}
 
@@ -602,7 +592,7 @@ input, select, textarea {
 
 	.icon {
 		text-decoration: none;
-		border-bottom: none;
+		border: 1px solid #ffffff;
 		position: relative;
 	}
 
@@ -638,8 +628,8 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
-		border: 0;
+		border: 1px solid #ffffff;
+		border: 1px solid #ffffff;
 		display: inline-block;
 		position: relative;
 	}
@@ -648,7 +638,7 @@ input, select, textarea {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
 			background-color: rgba(19, 21, 25, 0.5);
-			border-radius: 4px;
+			border: 1px solid #ffffff;
 			content: '';
 			display: block;
 			height: 100%;
@@ -660,7 +650,7 @@ input, select, textarea {
 		}
 
 		.image img {
-			border-radius: 4px;
+			border: 1px solid #ffffff;
 			display: block;
 		}
 
@@ -748,12 +738,12 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #000000;
+				border: 1px solid #ffffff;
 				padding: 0.5em 0;
 			}
 
 				ul.alt li:first-child {
-					border-top: 0;
+					border: 1px solid #ffffff;
 					padding-top: 0;
 				}
 
@@ -911,7 +901,7 @@ input, select, textarea {
 			}
 
 			ul.icons li a {
-				border-radius: 100%;
+				border: 1px solid #ffffff;
 				box-shadow: inset 0 0 0 1px #ffffff;
 				display: inline-block;
 				height: 2.25rem;
@@ -941,9 +931,9 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #ffffff;
-			border-left: 0;
-			border-right: 0;
+			border: 1px solid #ffffff;
+			border: 1px solid #ffffff;
+			border: 1px solid #ffffff;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
@@ -963,37 +953,37 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #ffffff;
+			border: 1px solid #ffffff;
 		}
 
 		table tfoot {
-			border-top: solid 2px #ffffff;
+			border: 1px solid #ffffff;
 		}
 
 		table.alt {
-			border-collapse: separate;
+			border: 1px solid #ffffff;
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #ffffff;
-				border-left-width: 0;
-				border-top-width: 0;
+				border: 1px solid #ffffff;
+				border: 1px solid #ffffff;
+				border: 1px solid #ffffff;
 			}
 
 				table.alt tbody tr td:first-child {
-					border-left-width: 1px;
+					border: 1px solid #ffffff;
 				}
 
 			table.alt tbody tr:first-child td {
-				border-top-width: 1px;
+				border: 1px solid #ffffff;
 			}
 
 			table.alt thead {
-				border-bottom: 0;
+				border: 1px solid #ffffff;
 			}
 
 			table.alt tfoot {
-				border-top: 0;
+				border: 1px solid #ffffff;
 			}
 
 /* Button */
@@ -1012,8 +1002,8 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 4px;
-		border: 0;
+		border: 1px solid #ffffff;
+		border: 1px solid #ffffff;
 		box-shadow: inset 0 0 0 1px #ffffff;
 		color: #ffffff !important;
 		cursor: pointer;
@@ -1106,19 +1096,7 @@ input, select, textarea {
 
 /* BG */
 
-	#bg {
-		-moz-transform: scale(1.0);
-		-webkit-transform: scale(1.0);
-		-ms-transform: scale(1.0);
-		transform: scale(1.0);
-		-webkit-backface-visibility: hidden;
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100vh;
-		z-index: 1;
-	}
+	#bg { background: #ffffff !important; }
 
 		#bg:before, #bg:after {
 			content: '';
@@ -1294,19 +1272,19 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
-		}
+			border: 1px solid #ffffff;
+			border: 1px solid #ffffff;
+		 background-color: #ffffff; }
 
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
 
 		#header .content {
-			border-style: solid;
-			border-color: #000000;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border: 1px solid #ffffff;
+			border: 1px solid #ffffff;
+			border: 1px solid #ffffff;
+			border: 1px solid #ffffff;
 			max-width: 100%;
 		}
 
@@ -1343,17 +1321,17 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
-			border-radius: 4px;
+			border: 1px solid #ffffff;
+			border: 1px solid #ffffff;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border: 1px solid #ffffff;
 			}
 
 				#header nav ul li:first-child {
-					border-left: 0;
+					border: 1px solid #ffffff;
 				}
 
 				#header nav ul li a {
@@ -1365,7 +1343,7 @@ input, select, textarea {
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
-					border-bottom: 0;
+					border: 1px solid #ffffff;
 				}
 
 					#header nav ul li a:hover {
@@ -1388,7 +1366,7 @@ input, select, textarea {
 		}
 
 		#header nav.use-middle ul li.is-middle {
-			border-left: 0;
+			border: 1px solid #ffffff;
 		}
 
 		body.is-article-visible #header {
@@ -1444,7 +1422,7 @@ input, select, textarea {
 				width: 4.75rem;
 				height: 4.75rem;
 				line-height: 4.75rem;
-			}
+			 background-color: #ffffff; }
 
 				#header .logo .icon:before {
 					font-size: 1.75rem;
@@ -1480,12 +1458,12 @@ input, select, textarea {
 				}
 
 					#header nav ul li {
-						border-left: 0;
-						border-top: solid 1px #000000;
+						border: 1px solid #ffffff;
+						border: 1px solid #ffffff;
 					}
 
 						#header nav ul li:first-child {
-							border-top: 0;
+							border: 1px solid #ffffff;
 						}
 
 						#header nav ul li a {
@@ -1547,7 +1525,7 @@ input, select, textarea {
 			width: 40rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
-			border-radius: 4px;
+			border: 1px solid #ffffff;
 			opacity: 0;
 		}
 
@@ -1584,7 +1562,7 @@ input, select, textarea {
 					left: 0.75rem;
 					width: 2.5rem;
 					height: 2.5rem;
-					border-radius: 100%;
+					border: 1px solid #ffffff;
 					background-position: center;
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
 					background-size: 20px 20px;
