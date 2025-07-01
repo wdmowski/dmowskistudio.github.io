@@ -1281,7 +1281,7 @@ input, select, textarea {
 #header .logo .icon:before {
 	font-family: "Font Awesome 5 Free"; /* lub inna, zależnie od wersji */
 	font-weight: 900; /* ważne, jeśli używasz solidnych ikon */
-	font-size: 4rem; /* tutaj zwiększ do żądanej wielkości */
+	font-size: 3.5rem; /* tutaj zwiększ do żądanej wielkości */
 	color: #000000;
 	line-height: 5.5rem; /* żeby wycentrować w pionie */
 }
