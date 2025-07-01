@@ -616,7 +616,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 1800;
+			font-weight: 400;
 		}
 
 		.icon > .label {
@@ -628,7 +628,7 @@ input, select, textarea {
 		}
 
 		.icon.solid:before {
-			font-weight: 1800;
+			font-weight: 800;
 		}
 
 		.icon.brands:before {
@@ -1270,9 +1270,9 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 10rem;
+			height: 10rem;
+			line-height: 10rem;
 			border: solid 1px #000000;
 			border-radius: 100%;
 		}
