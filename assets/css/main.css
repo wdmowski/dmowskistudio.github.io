@@ -189,7 +189,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #000000;
+			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -284,7 +284,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #000000;
+		border-bottom: solid 1px #ffffff;
 		margin: 2.75rem 0;
 	}
 
@@ -401,7 +401,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
-		border: solid 1px #000000;
+		border: solid 1px #ffffff;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -517,7 +517,7 @@ input, select, textarea {
 				-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				border-radius: 4px;
-				border: solid 1px #000000;
+				border: solid 1px #ffffff;
 				content: '';
 				display: inline-block;
 				height: 1.65rem;
@@ -581,7 +581,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px #000000;
+		border: solid 1px #ffffff;
 		margin-bottom: 2rem;
 		padding: 1.5em;
 	}
@@ -748,7 +748,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #000000;
+				border-top: solid 1px #ffffff;
 				padding: 0.5em 0;
 			}
 
@@ -941,7 +941,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #000000;
+			border: solid 1px #ffffff;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -975,7 +975,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #000000;
+				border: solid 1px #ffffff;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -1107,7 +1107,6 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-	background-color: #ffffff !important; {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
@@ -1121,12 +1120,7 @@ input, select, textarea {
 		z-index: 1;
 	}
 
-		#bg {
-	background-color: #ffffff !important;:before {
-	background-color: #ffffff !important;
-	opacity: 1 !important;
-	background-image: none !important;, #bg {
-	background-color: #ffffff !important;:after {
+		#bg:before, #bg:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1136,11 +1130,7 @@ input, select, textarea {
 			height: 100%;
 		}
 
-		#bg {
-	background-color: #ffffff !important;:before {
-	background-color: #ffffff !important;
-	opacity: 1 !important;
-	background-image: none !important; {
+		#bg:before {
 			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
@@ -1159,8 +1149,7 @@ input, select, textarea {
 			z-index: 2;
 		}
 
-		#bg {
-	background-color: #ffffff !important;:after {
+		#bg:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
@@ -1176,8 +1165,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		body.is-article-visible #bg {
-	background-color: #ffffff !important;:after {
+		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
 			-ms-transform: scale(1.0825);
@@ -1188,11 +1176,7 @@ input, select, textarea {
 			filter: blur(0.2rem);
 		}
 
-		body.is-preload #bg {
-	background-color: #ffffff !important;:before {
-	background-color: #ffffff !important;
-	opacity: 1 !important;
-	background-image: none !important; {
+		body.is-preload #bg:before {
 			background-color: #000000;
 		}
 
@@ -1310,7 +1294,7 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #000000;
+			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
 
@@ -1359,7 +1343,7 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #000000;
+			border: solid 1px #ffffff;
 			border-radius: 4px;
 		}
 
@@ -1497,7 +1481,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #000000;
+						border-top: solid 1px #ffffff;
 					}
 
 						#header nav ul li:first-child {
@@ -1675,3 +1659,35 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+/* Set global background to white */
+body, #bg {
+    background: #ffffff !important;
+}
+
+/* Set all text to black */
+body, h1, h2, h3, h4, h5, h6, p, a, li, span {
+    color: #000000 !important;
+}
+
+/* Set icon color to black */
+.icon {
+    color: #000000 !important;
+}
+
+/* Set borders and lines to black */
+hr, .divider, .major:after, .logo:before {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+/* Fix the circle around the icon */
+.logo:before {
+    border: 2px solid #000000 !important;
+}
+
+/* Prevent any background fading or overlays */
+#bg:before, #bg:after {
+    display: none !important;
+}
